@@ -1,10 +1,10 @@
 <!-- #region -->
-# FACExplainer
-This is the official implement of Paper [FACExplainer: Generating Model-faithful Explanations for Graph Neural Networks Guided by Spatial Information of the Target Model]
+# Facexplainer
+This is the official implement of Paper [FACExplainer: Generating Model-faithful Explanations for Graph Neural Networks Guided by Spatial Information]
 
 ## Prerequisites
 ```shell script
-$ cd ./FACExplainer
+$ cd ./Facexplainer
 $ source install.sh
 ``` 
 
