@@ -8,7 +8,7 @@ $ cd ./Facexplainer
 $ source install.sh
 ``` 
 
-For Graph_SST2 dataset, it is too big to upload. We suggest to download Graph_SST2 from its source code or any exsiting work that has it (we recommend DIG).
+For used datasets in this paper. We suggest to download them from their source code or any exsiting work that has it (we recommend DIG).
 
 ## Usage
 For experiment in the paper, please see `run_explainers.sh`
