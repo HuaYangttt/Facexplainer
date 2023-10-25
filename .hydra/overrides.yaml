@@ -1,0 +1,4 @@
+- models=gcn
+- datasets=redditbinary
+- explainers.sparsity=0.85
+- explainers=facexplainer

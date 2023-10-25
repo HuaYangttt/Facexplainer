@@ -1,0 +1,35 @@
+explanation_result_path: ''
+explainer_name: 'faceplainer'
+sparsity: 0.5
+subgraph_building_method: 'zero_filling'
+param:
+  mutag:
+    
+  bbbp:
+    
+  ba_shapes:
+    
+  graph_sst2:
+    
+  graph_sst5:
+    
+  twitter:
+    
+  ba_community:
+    
+  tree_grid:
+    
+  tree_cycle:
+    
+  ba_2motifs:
+    
+  bace:
+    
+  ba_shapes_khop_graph:
+    
+  ba_shapes_2hop_graph:
+
+  redditbinary:
+
+  collab:
+    
