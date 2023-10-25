@@ -98,9 +98,9 @@ class FACExplainer(object):
                 count+=1
                 masked_score, maskout_score, sparsity_score = self.Score_fuc_F_FI(nodes[:exp_size], data, prediction=ori_prediction)
                 #print(nodes[:exp_size], masked_score, maskout_score)
-                #search_result_dict.append(( masked_score-maskout_score , masked_score, maskout_score, nodes, sparsity_score)) 
+                search_result_dict.append(( masked_score-maskout_score , masked_score, maskout_score, nodes, sparsity_score)) 
                 
-                search_result_dict.append(( masked_score , masked_score, maskout_score, nodes, sparsity_score)) #ablation study
+                #search_result_dict.append(( masked_score , masked_score, maskout_score, nodes, sparsity_score)) #ablation study
             
             best_score, masked_score, maskout_score, best_nodes, sparsity_score= self.find_best_result(search_result_dict, max= True)
             node_indexes_sorted_list = best_nodes
